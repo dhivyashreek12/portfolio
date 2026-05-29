@@ -1,110 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dhivya Shree Portfolio</title>
+<title>Java Projects</title>
 
-    <link rel="stylesheet" href="style.css">
+<style>
 
-    <!-- Icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+body{
+
+    margin:0;
+    font-family:Poppins,sans-serif;
+
+    background:
+    linear-gradient(135deg,#050816,#0f172a,#111827);
+
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+/* Card */
+
+.container{
+
+    width:85%;
+    max-width:900px;
+
+    background:rgba(17,24,39,0.95);
+
+    border-radius:30px;
+
+    padding:40px;
+
+    box-shadow:
+    0 0 25px rgba(0,198,255,0.2),
+    0 0 60px rgba(127,92,255,0.2);
+
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+/* Left */
+
+.image{
+
+    flex:1;
+}
+
+.image img{
+
+    width:100%;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 0 20px rgba(0,198,255,0.4);
+}
+
+/* Right */
+
+.content{
+
+    flex:1;
+}
+
+.content h1{
+
+    font-size:55px;
+
+    margin-bottom:15px;
+
+    color:#00c6ff;
+
+    text-shadow:
+    0 0 15px #00c6ff;
+}
+
+.content p{
+
+    color:#d1d5db;
+
+    line-height:1.8;
+
+    font-size:18px;
+}
+
+/* Buttons */
+
+.buttons{
+
+    margin-top:30px;
+
+    display:flex;
+    gap:20px;
+}
+
+a{
+
+    text-decoration:none;
+}
+
+button{
+
+    padding:15px 28px;
+
+    border:none;
+
+    border-radius:14px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    color:white;
+
+    background:
+    linear-gradient(to right,#00c6ff,#7f5cff);
+
+    box-shadow:
+    0 0 15px rgba(0,198,255,0.5);
+
+    transition:0.4s;
+}
+
+button:hover{
+
+    transform:scale(1.08);
+
+    box-shadow:
+    0 0 25px #00c6ff,
+    0 0 50px #7f5cff;
+}
+
+</style>
 
 </head>
 
 <body>
 
-    <header>
+<div class="container">
 
-        <h1>Dhivya Shree</h1>
+    <div class="image">
 
-        <p>Developer | Java | IoT | DBMS</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
 
-        <div class="line"></div>
+    </div>
 
-    </header>
+    <div class="content">
 
-    <section class="projects">
+        <h1>Java Programs</h1>
 
-        <!-- Java -->
+        <p>
 
-        <div class="card pink">
+            Collection of Java programs including
+            loops, arrays, strings, OOP concepts,
+            patterns, and problem-solving programs.
 
-            <div class="icon">
-                <i class='bx bx-code-alt'></i>
-            </div>
+        </p>
 
-            <h2>Java Programs</h2>
+        <div class="buttons">
 
-            <p>
-                Collection of Java coding programs
-                and concepts.
-            </p>
+            <a href="https://github.com/dhivyashreek12/java-programs" target="_blank">
 
-            <a href="https://github.com/dhivyashreek12/java-progarms" target="_blank">
+                <button>View Code</button>
 
-                <button>
-                    View Project
-                    <i class='bx bx-right-arrow-alt'></i>
-                </button>
+            </a>
+
+            <a href="index.html">
+
+                <button>Back</button>
 
             </a>
 
         </div>
 
-        <!-- IoT -->
+    </div>
 
-        <div class="card blue">
-
-            <div class="icon">
-                <i class='bx bx-wifi'></i>
-            </div>
-
-            <h2>Internet of Things (IoT)</h2>
-
-            <p>
-                IoT mini projects and implementations.
-            </p>
-
-            <a href="https://github.com/dhivyashreek12/Internet-of-Things-IoT-" target="_blank">
-
-                <button>
-                    View Project
-                    <i class='bx bx-right-arrow-alt'></i>
-                </button>
-
-            </a>
-
-        </div>
-
-        <!-- DBMS -->
-
-        <div class="card green">
-
-            <div class="icon">
-                <i class='bx bx-data'></i>
-            </div>
-
-            <h2>Online Examination System</h2>
-
-            <p>
-                DBMS project for conducting online exams.
-            </p>
-
-            <a href="https://github.com/dhivyashreek12/Online-Examination-Project-DBMS" target="_blank">
-
-                <button>
-                    View Project
-                    <i class='bx bx-right-arrow-alt'></i>
-                </button>
-
-            </a>
-
-        </div>
-
-    </section>
+</div>
 
 </body>
 </html>
