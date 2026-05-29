@@ -8,86 +8,205 @@
 }
 
 body{
+
     min-height:100vh;
-    background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+
+    background:
+    radial-gradient(circle at top left,#ff00cc33,transparent 30%),
+    radial-gradient(circle at bottom right,#00c3ff33,transparent 30%),
+    #060816;
+
     color:white;
+
     overflow-x:hidden;
 }
 
-/* Heading */
+/* Header */
 
 header{
+
     text-align:center;
-    padding:60px 20px;
+
+    padding-top:70px;
 }
 
 header h1{
-    font-size:70px;
+
+    font-size:90px;
+
     font-weight:700;
 
-    background:linear-gradient(to right,#00f5ff,#ff00ea);
+    background:linear-gradient(to right,#00d4ff,#ff00ff);
+
     -webkit-background-clip:text;
+
     -webkit-text-fill-color:transparent;
 
-    text-shadow:0 0 25px rgba(0,255,255,0.6);
+    text-shadow:
+    0 0 20px #00d4ff,
+    0 0 40px #ff00ff;
 }
 
 header p{
+
     margin-top:15px;
-    font-size:24px;
-    color:#ddd;
+
+    font-size:28px;
+
+    color:#eee;
+}
+
+/* Line */
+
+.line{
+
+    width:120px;
+
+    height:5px;
+
+    margin:25px auto;
+
+    border-radius:10px;
+
+    background:linear-gradient(to right,#00d4ff,#ff00ff);
+
+    box-shadow:
+    0 0 15px #00d4ff,
+    0 0 30px #ff00ff;
+}
+
+/* Projects */
+
+.projects{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+
+    padding:60px 20px;
 }
 
 /* Cards */
 
-.projects{
-    display:flex;
-    justify-content:center;
-    gap:40px;
-    flex-wrap:wrap;
-    padding:40px;
-}
-
 .card{
-    width:320px;
-    padding:35px 25px;
 
-    background:rgba(255,255,255,0.08);
+    width:350px;
 
-    border:1px solid rgba(255,255,255,0.2);
+    padding:40px 30px;
 
-    border-radius:25px;
+    border-radius:30px;
+
+    background:rgba(255,255,255,0.05);
 
     backdrop-filter:blur(10px);
 
     text-align:center;
 
     transition:0.4s;
+}
+
+/* Card Colors */
+
+.pink{
+
+    border:2px solid #ff00ff;
 
     box-shadow:
-    0 0 20px rgba(0,255,255,0.2),
-    0 0 40px rgba(255,0,255,0.1);
+    0 0 20px #ff00ff66;
+}
+
+.blue{
+
+    border:2px solid #00d4ff;
+
+    box-shadow:
+    0 0 20px #00d4ff66;
+}
+
+.green{
+
+    border:2px solid #9dff00;
+
+    box-shadow:
+    0 0 20px #9dff0066;
 }
 
 .card:hover{
 
     transform:translateY(-15px) scale(1.03);
-
-    box-shadow:
-    0 0 25px #00f5ff,
-    0 0 50px #ff00ea,
-    0 0 80px #00f5ff;
 }
 
+/* Icons */
+
+.icon{
+
+    width:100px;
+
+    height:100px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:50px;
+
+    margin-bottom:25px;
+}
+
+.pink .icon{
+
+    border:2px solid #ff00ff;
+
+    color:#ff00ff;
+
+    box-shadow:0 0 20px #ff00ff;
+}
+
+.blue .icon{
+
+    border:2px solid #00d4ff;
+
+    color:#00d4ff;
+
+    box-shadow:0 0 20px #00d4ff;
+}
+
+.green .icon{
+
+    border:2px solid #9dff00;
+
+    color:#9dff00;
+
+    box-shadow:0 0 20px #9dff00;
+}
+
+/* Text */
+
 .card h2{
+
     font-size:38px;
+
     margin-bottom:20px;
-    color:white;
 }
 
 .card p{
-    font-size:18px;
+
     color:#ddd;
+
+    font-size:20px;
+
+    line-height:1.5;
+
     margin-bottom:30px;
 }
 
@@ -95,27 +214,51 @@ header p{
 
 button{
 
-    padding:14px 28px;
+    padding:16px 30px;
 
     border:none;
 
-    border-radius:15px;
+    border-radius:20px;
 
-    font-size:18px;
-
-    font-weight:600;
+    font-size:20px;
 
     color:white;
 
     cursor:pointer;
 
-    background:linear-gradient(90deg,#00f5ff,#ff00ea);
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin:auto;
 
     transition:0.4s;
+}
+
+.pink button{
+
+    background:linear-gradient(to right,#ff00cc,#9933ff);
 
     box-shadow:
-    0 0 15px #00f5ff,
-    0 0 30px #ff00ea;
+    0 0 20px #ff00ff;
+}
+
+.blue button{
+
+    background:linear-gradient(to right,#00d4ff,#8f00ff);
+
+    box-shadow:
+    0 0 20px #00d4ff;
+}
+
+.green button{
+
+    background:linear-gradient(to right,#00ff99,#ffd500);
+
+    box-shadow:
+    0 0 20px #9dff00;
 }
 
 button:hover{
@@ -123,9 +266,7 @@ button:hover{
     transform:scale(1.1);
 
     box-shadow:
-    0 0 25px #00f5ff,
-    0 0 50px #ff00ea,
-    0 0 80px #00f5ff;
+    0 0 30px white;
 }
 
 /* Mobile */
@@ -133,10 +274,17 @@ button:hover{
 @media(max-width:768px){
 
     header h1{
-        font-size:45px;
+
+        font-size:55px;
+    }
+
+    header p{
+
+        font-size:20px;
     }
 
     .card{
+
         width:90%;
     }
 }
