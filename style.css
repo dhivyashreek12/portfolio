@@ -17,18 +17,46 @@ header{
 
 header h1{
 
-    font-size:75px;
+    font-size:85px;
 
-    background:linear-gradient(to right,#00c6ff,#7f5cff);
+    font-weight:800;
 
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
+    color:#ffffff;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
 
     text-shadow:
-    0 0 20px rgba(0,198,255,0.7),
-    0 0 40px rgba(127,92,255,0.6);
+    0 0 10px #00c6ff,
+    0 0 20px #00c6ff,
+    0 0 40px #7f5cff,
+    0 0 60px #7f5cff;
+
+    animation:glow 2s infinite alternate;
 }
 
+/* Neon Animation */
+
+@keyframes glow{
+
+    from{
+
+        text-shadow:
+        0 0 10px #00c6ff,
+        0 0 20px #00c6ff,
+        0 0 40px #7f5cff;
+    }
+
+    to{
+
+        text-shadow:
+        0 0 20px #00c6ff,
+        0 0 40px #00c6ff,
+        0 0 60px #7f5cff,
+        0 0 90px #7f5cff;
+    }
+}
 header p{
 
     color:#d1d5db;
