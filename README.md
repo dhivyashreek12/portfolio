@@ -1,26 +1,30 @@
-# 🌐 Personal Portfolio Website
+# Hi, I'm Dhivya 👋
 
-## 📌 About
-This is my personal portfolio website showcasing my projects, skills, and achievements as a Computer Science Engineering student.
+🎓 Computer Science Engineering Student
 
-## 👩‍💻 About Me
-- Name: Dhivya Shree K
-- Course: Computer Science Engineering
-- Interests: Java, Web Development, DBMS, IoT
+💻 Passionate about:
+- Java
+- Web Development
+- DBMS
+- IoT
 
-## 🛠 Technologies Used
+🌱 Currently Learning:
+- Full Stack Development
+- Data Structures & Algorithms
+
+## 🛠 Skills
+- Java
 - HTML
 - CSS
 - JavaScript
+- MySQL
+- Git & GitHub
 
-## ✨ Features
-- Responsive design
-- Project showcase
-- Contact section
-- Skills section
+## 📌 Featured Projects
+- 🌐 Portfolio Website
+- 📝 Online Examination System
+- 📡 IoT Smart Project
+- ☕ Java Problem Solving
 
-## 🔗 Live Demo
-https://dhivyashreek12.github.io/portfolio/
-
-## 📷 Preview
-(Add screenshot here later)
+## 📫 Connect with Me
+- LinkedIn: (Add your LinkedIn URL)
