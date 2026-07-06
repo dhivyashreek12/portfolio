@@ -1,34 +1,18 @@
 # Hi, I'm Dhivya 👋
 
-🎓 Computer Science Engineering Student
+🎓 Computer Science Engineering Student  
+💻 Java Developer | Web Developer  
+🌱 Currently learning Full Stack Development and DSA
 
-💻 Passionate about:
+## 🚀 Skills
 - Java
-- Web Development
+- HTML, CSS, JavaScript
+- MySQL
+- Git & GitHub
 - DBMS
 - IoT
 
-🌱 Currently Learning:
-- Full Stack Development
-- Data Structures & Algorithms
-
-## 🛠 Skills
-- Java
-- HTML
-- CSS
-- JavaScript
-- MySQL
-- Git & GitHub
-
-## 📌 Featured Projects
-- 🌐 Portfolio Website
-- 📝 Online Examination System
-- 📡 IoT Smart Project
-- ☕ Java Problem Solving
-
-## 📫 Connect with Me
-- LinkedIn: (Add your LinkedIn URL)
-- ### 🛠 Languages and Tools
+### 🛠 Languages and Tools
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge)
@@ -37,3 +21,12 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge)
+
+## 📌 Featured Projects
+- 🌐 Portfolio Website
+- 📝 Online Examination System
+- 📡 IoT Smart Project
+- ☕ Java Problem Solving
+
+## 📫 Connect with Me
+- LinkedIn: https://www.linkedin.com/in/dhivya-shree-k/
